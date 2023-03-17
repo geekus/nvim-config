@@ -27,4 +27,8 @@ configs.setup {
     enable = true,
     enable_autocmd = false,
   },
+
+  autotag = {
+    enable = true,
+  },
 }

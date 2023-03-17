@@ -51,3 +51,8 @@ vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
     end
   end,
 })
+
+-- Turn off autocomment on next line
+vim.cmd "autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o"
+
+vim.cmd "command! C :tabedit $MYVIMRC" -- edit config

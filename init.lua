@@ -1,3 +1,13 @@
+--  _________________________________
+-- / Don't use wizard code you don't \
+-- \ understand                      /
+--  ---------------------------------
+--         \   ^__^
+--          \  (oo)\_______
+--             (__)\       )\/\
+--                 ||----w |
+--                 ||     ||
+
 require "user.impatient"
 require "user.options"
 require "user.keymaps"
